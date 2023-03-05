@@ -52,6 +52,10 @@ class TriggerBot:
     def __init__(self, offset=0, mode='performance'):
         self.offset = offset
         self.mode = mode
+        self.MONITOR_WIDTH = 2560
+        self.MONITOR_HEIGHT = 1440
+        self.UPPER_OFFSET = 3
+        self.SECOND_MONITOR_OFFSET = 1920
     
     def run(self):
         if self.mode == 'performance':
@@ -64,17 +68,18 @@ class TriggerBot:
             raise Exception('Invalid mode')
     
     def _run_perf(self):
-        WIDTH = 100
+        WIDTH = 150
+
         while True:
             with mss.mss() as sct:
                 # Part of the screen to capture
-                monitor = {"top": 537, "left": 960 - WIDTH // 2, "width": WIDTH, "height": 1}
+                monitor = {"top": self.MONITOR_HEIGHT // 2 - self.UPPER_OFFSET, "left": self.MONITOR_WIDTH // 2 - WIDTH // 2 + self.SECOND_MONITOR_OFFSET, "width": WIDTH, "height": 1}
 
                 # Grab the data
                 sct_img = sct.grab(monitor)
 
                 # Save to the picture file
-                # mss.tools.to_png(sct_img.rgb, sct_img.size, output="monitor-1.png")
+                # mss.tools.to_png(sct_img.rgb, sct_img.size, output="def.png", level=0)
 
                 # Display the picture
                 left_trigger = False
@@ -104,14 +109,15 @@ class TriggerBot:
                 
                     if left_trigger and right_trigger:
                         left_click()
-                        time.sleep(1.5)
+                        mss.tools.to_png(sct_img.rgb, sct_img.size, output="last-fire.png")
+                        time.sleep(0.8)
 
     # Used for testing colors
     def _run_test(self):
         while True:
             with mss.mss() as sct:
                 # Part of the screen to capture
-                monitor = {"top": 0, "left": 0, "width": 1920, "height": 1080}
+                monitor = {"top": 0, "left": self.SECOND_MONITOR_OFFSET, "width": self.MONITOR_WIDTH, "height": self.MONITOR_HEIGHT}
 
                 # Grab the data
                 sct_img = sct.grab(monitor)
