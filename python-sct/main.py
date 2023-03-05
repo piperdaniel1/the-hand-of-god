@@ -48,6 +48,9 @@ def is_trigger(r, g, b):
 
     return False
 
+def get_ind(x, y, width):
+    return (x + y * width) * 4
+
 class TriggerBot:
     def __init__(self, offset=0, mode='performance'):
         self.offset = offset
@@ -68,44 +71,59 @@ class TriggerBot:
             raise Exception('Invalid mode')
     
     def _run_perf(self):
-        WIDTH = 150
+        WIDTH = 100
+        HEIGHT = 10
 
-        while True:
-            with mss.mss() as sct:
+        with mss.mss() as sct:
+            while True:
                 # Part of the screen to capture
-                monitor = {"top": self.MONITOR_HEIGHT // 2 - self.UPPER_OFFSET, "left": self.MONITOR_WIDTH // 2 - WIDTH // 2 + self.SECOND_MONITOR_OFFSET, "width": WIDTH, "height": 1}
+                monitor = {"top": self.MONITOR_HEIGHT // 2 - HEIGHT, "left": self.MONITOR_WIDTH // 2 - WIDTH // 2 + self.SECOND_MONITOR_OFFSET, "width": WIDTH, "height": HEIGHT}
 
                 # Grab the data
                 sct_img = sct.grab(monitor)
 
                 # Save to the picture file
-                # mss.tools.to_png(sct_img.rgb, sct_img.size, output="def.png", level=0)
+                mss.tools.to_png(sct_img.rgb, sct_img.size, output="def.png", level=0)
+
+                # for i in range(0, len(sct_img.raw), 4):
+                #     print(sct_img.raw[i], sct_img.raw[i+1], sct_img.raw[i+2])
+                #     time.sleep(0.25)
+                    
+                # time.sleep(5)
+                
+                # continue
 
                 # Display the picture
                 left_trigger = False
                 right_trigger = False
 
-                r = sct_img.raw[WIDTH // 2 * 4]
-                g = sct_img.raw[WIDTH // 2 * 4 + 1]
-                b = sct_img.raw[WIDTH // 2 * 4 + 2]
+                lower_mid = get_ind(WIDTH // 2, HEIGHT-1, WIDTH)
+
+                r = sct_img.raw[lower_mid + 0] 
+                g = sct_img.raw[lower_mid + 1]
+                b = sct_img.raw[lower_mid + 2]
 
                 # make sure crosshair is there
                 if (r < 55 and g < 55 and b > 180 ) or (r < 65 and g < 65 and b > 200):
-                    for i in range(0, len(sct_img.raw)//2, 4):
+                    for i in range(0, len(sct_img.raw), 4):
                         r = sct_img.raw[i]
                         g = sct_img.raw[i+1]
                         b = sct_img.raw[i+2]
                         if is_trigger(r, g, b):
-                            left_trigger = True
-                            break
+                            y = i // (WIDTH * 4)
+                            x = (i - y * WIDTH * 4) // 4
 
-                    for i in range(len(sct_img.raw)//2, len(sct_img.raw), 4):
-                        r = sct_img.raw[i]
-                        g = sct_img.raw[i+1]
-                        b = sct_img.raw[i+2]
-                        if is_trigger(r, g, b):
-                            right_trigger = True
-                            break
+                            if x < WIDTH // 2:
+                                left_trigger = True
+                            else:
+                                right_trigger = True
+                    # for i in range(len(sct_img.raw)//2, len(sct_img.raw), 4):
+                    #     r = sct_img.raw[i]
+                    #     g = sct_img.raw[i+1]
+                    #     b = sct_img.raw[i+2]
+                    #     if is_trigger(r, g, b):
+                    #         right_trigger = True
+                    #         break
                 
                     if left_trigger and right_trigger:
                         left_click()
