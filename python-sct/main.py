@@ -12,6 +12,9 @@ def left_click():
 def is_alt_clicked():
     return win32api.GetAsyncKeyState(win32con.VK_MENU) < 0
 
+def is_mouse_clicked():
+    return win32api.GetAsyncKeyState(win32con.VK_LBUTTON) < 0
+
 def is_trigger(r, g, b):
     # Standard trigger pixel
     TRIGGER_PIXEL = (255, 110, 255)
@@ -98,26 +101,49 @@ class TriggerBot:
                 g = sct_img.raw[lower_mid + 1]
                 b = sct_img.raw[lower_mid + 2]
 
-                # make sure crosshair is there
-                if (r < 55 and g < 55 and b > 180 ) or (r < 65 and g < 65 and b > 200):
-                    for i in range(0, len(sct_img.raw), 4):
-                        r = sct_img.raw[i]
-                        g = sct_img.raw[i+1]
-                        b = sct_img.raw[i+2]
-                        if is_trigger(r, g, b):
-                            y = i // (WIDTH * 4)
-                            x = (i - y * WIDTH * 4) // 4
+                '''
+                 - Mode 1: Low Reflex Mode
+                '''
 
-                            if x < WIDTH // 2:
-                                left_trigger = True
-                            else:
-                                right_trigger = True
-                
-                    if left_trigger and right_trigger and ENABLED:
-                        left_click()
-                        mss.tools.to_png(sct_img.rgb, sct_img.size, output="last-fire.png")
-                        time.sleep(0.8)
-                else:
+                # make sure crosshair is there
+                if not is_mouse_clicked():
+                    if ((r < 55 and g < 55 and b > 180 ) or (r < 65 and g < 65 and b > 200)):
+                        for i in range(0, len(sct_img.raw), 4):
+                            r = sct_img.raw[i]
+                            g = sct_img.raw[i+1]
+                            b = sct_img.raw[i+2]
+                            if is_trigger(r, g, b):
+                                y = i // (WIDTH * 4)
+                                x = (i - y * WIDTH * 4) // 4
+
+                                if x < WIDTH // 2:
+                                    left_trigger = True
+                                else:
+                                    right_trigger = True
+                    
+                        if left_trigger and right_trigger and ENABLED:
+                            left_click()
+                            mss.tools.to_png(sct_img.rgb, sct_img.size, output="last-fire.png")
+                            time.sleep(0.2)
+                    elif r == 255 and g == 255 and b == 0:
+                        for i in range(0, len(sct_img.raw), 4):
+                            r = sct_img.raw[i]
+                            g = sct_img.raw[i+1]
+                            b = sct_img.raw[i+2]
+                            if is_trigger(r, g, b):
+                                y = i // (WIDTH * 4)
+                                x = (i - y * WIDTH * 4) // 4
+
+                                if x < WIDTH // 2:
+                                    left_trigger = True
+                                else:
+                                    right_trigger = True
+                    
+                        if left_trigger and right_trigger and ENABLED:
+                            left_click()
+                            mss.tools.to_png(sct_img.rgb, sct_img.size, output="last-fire.png")
+                            time.sleep(0.15)
+
                     if is_alt_clicked():
                         if not CLICKED:
                             if ENABLED:
