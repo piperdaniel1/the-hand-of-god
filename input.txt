@@ -1,0 +1,234 @@
+I believe there’s intelligent life on  other planets. And the most plausible  
+reason why they haven’t contacted  us is that we’re too boring. I mean,  
+we haven’t even figured out how to send  information faster than light. Pathetic.
+But wait, let me guess. You’ve  heard that it’s impossible to  
+send information faster than the speed  of light because, er, physics. Yes,  
+I’ve heard that too. But I think it’s wrong.  And in this video, I want to explain why.  
+Is it possible to break the speed of light  limit? That’s what we’ll talk about today.
+If you’ve been following this channel for a  really long time, first of all, thank you,  
+I know it isn’t always easy. Second,  you may remember that I made a video  
+about faster than light travel already a few  years ago. But I think no one understood it. 
+In fact, when I watched it again  recently, I didn’t understand it either.  
+So please give me a second chance. Because I think  it’s becoming increasingly relevant to get this  
+right. And this time, I’ll try to do it better.  I’ll even let you leave the toilet seat up.
+In the past year or so, there’s been a lot  of talk about unexplained aerial phenomena,  
+formerly known as UFOs. I don’t actually  believe any of those are of extra-terrestrial  
+origin because, as I said, we’re just too  boring for aliens to bother visiting us.
+Then again, what do I know? Maybe some of those  aerial phenomena really are space probes from  
+alien species. And if we want to properly  evaluate how likely that is, we need to talk  
+about the possibility of travelling faster  than light, or at least sending information  
+faster than light. Because if it’s possible  at all, then that’s what the aliens are doing.
+The Speed of Light as Limit
+The idea that the speed of light is a limit  comes from Albert Einstein’s theory of Special  
+Relativity. Yes, this guy again. The speed  of light plays a special role in his theory  
+because it’s the only speed that’s the same  for all observers. And just to make sure,  
+I mean the speed of light in vacuum. The  speed of light in a medium, any medium,  
+is slower than the speed of light in vacuum,  
+and depends on how you move relative to the  medium. But the speed of light *in vacuum  
+does *not depend on how fast you move because  there’s nothing for you to move relative to.
+I know this sounds about as exciting as flossing  teeth, but it has some unexpected consequences,  
+and I don’t mean that your crowns pop off. Suppose you and your friend, let’s call him Bob,  
+both have a water hose, and it spits out  water at, say 10 kilometres per hour. Bob  
+gets on a train which moves at 200 kilometres  per hour. If you live in the United States,  
+make that 20, then he turns on his  water hose again. The water moves  
+with 10 kilometres per hour relative to  him. But how fast does it move relative  
+to you? You’d expect it to be the speed of  the water plus the speed of the train, right?
+Now imagine you don’t have water hoses but  laser pointers. They send out light with,  
+well, the speed of light. Your friend  Bob gets on a train again. In vacuum,  
+of course. Because this is theoretical  physics, where people don’t breathe,  
+cows are spheres, and 3 is either equal to  pi or infinity, depending on whom you ask.  
+How fast do you see the light of Bob’s laser?  You’d expect this to be faster than the light  
+that comes out of your laser pointer by the  speed of the train, but not so. It moves with  
+the exact same speed as yours. Because  the speed of light is always the same.
+This is what was confirmed with the  famous Michaelson-Morley experiment,  
+and it has a very odd consequence: You can’t  catch up with light. It doesn’t matter how  
+fast the train is, light will still move  away from it with the speed of light.  
+If that didn’t make your crowns pop off  you’ve probably heard it so many times  
+before that you’ve forgotten how remarkable  it is. That, or you have a very good dentist.
+We can quantify the difficulty of catching  up with light by asking how much energy it  
+takes to accelerate an object. Let’s  suppose the object has a mass m. This  
+mass corresponds to an energy which is  given by the most famous equation ever,  
+E equals m c square, where E is the  energy and c is the speed of light.
+But now we accelerate this massive object  from zero velocity to some other velocity,  
+v. The energy you need for this acceleration  is the total energy of the object at the new  
+velocity, minus the energy it previously had.  In Einstein’s theory, the total energy of an  
+object that moves relative to you with  velocity v is given by this expression. 
+Now if you want to know the kinetic energy,  
+you take this and subtract the  same expression for zero velocity.  
+So you get this somewhat messy expression, but  don’t despair, it isn't as bad as it looks.
+For one thing, when the velocity, v, is  much smaller than the speed of light,  
+then the ratio v over c is much smaller than  one. In this case, the complicated thing with  
+the square root is approximately one plus one half  v over c square, the one cancels out and the c’s  
+cancel out and you get one half m v square, which  you might remember is just the kinetic energy.
+But we’re more interested in the case where  the velocity gets close to the speed of light,  
+so v over c gets close to 1. Then  this factor gets close to zero,  
+and the entire energy gets close to  one over zero, which is infinity. 
+This means if you want to accelerate an  object until it reaches the speed of light,  
+you need an infinite amount of energy. Another  way to put this is that the only way you can move  
+at the speed of light is when your mass is zero.  Even a keto diet isn’t going to do that for you.
+This is where the idea comes from that the  speed of light is a limit that you can’t cross.  
+But… this argument has some issues. The first issue is that it doesn’t mean faster  
+The Speed of Light as Barrier
+than light travel is forbidden in Einstein’s  theory. Indeed, his theory is entirely compatible  
+with faster-than-light travel. The problem  seems to be instead that you can’t accelerate  
+from below the speed of light to above the speed  of light. It’s more like a barrier than a limit.
+The second issue is more a peculiarity. It’s  that on all other occasions when physicists  
+see some quantity go to infinity, they’ll tell  you that infinity is unphysical and a sign that  
+the maths doesn’t properly work. Big bang, black  holes, non-renormalizable effective field theory,  
+whatever. If there’s a singularity,  they’ll say it’s a mathematical artefact  
+and not real. They don’t say that in  this case, and I think they should.
+The third issue is that we have a counterexample  to the claim that one needs an infinite amount  
+of energy to reach the speed of light,  which makes the argument extremely suspect.  
+But to see why I say this, I first need  to tell you where mass comes from. No,  
+it’s not too much cheese, it’s simpler than that.
+Most of the mass of objects around you isn’t  really mass, it’s binding energy. You see,  
+almost the entire mass of atoms is in the nucleus.  The nucleus is made of neutrons and protons,  
+and the neutrons and protons are each  made of three quarks. For the neutron  
+that’s two down and one up, and for the  proton it’s two up and one down. Quarks,  
+not thumbs, I mean. The quarks do have  masses, but if you add them together,  
+the sum is far less than the mass  of either the neutron or proton.
+Instead, most of the mass of neutrons and protons  is the binding energy from the strong nuclear  
+force that holds them together. We *interpret  it as mass because E equals m c square. But  
+this means it’s really odd to put the mass of an  object into this equation in Einstein’s formula.  
+Because really if you look at the object  microscopically, most of it isn’t mass. And,  
+yes, that means most of you isn’t mass either.  You’re almost entirely made of pure energy.  
+Though when I see how much time you spend  watching YouTube I find that hard to believe.
+What’s with the remaining mass, the part that  isn’t binding energy? Electrons and quarks  
+do have masses, albeit very small ones.  These masses come from the Higgs-field,  
+not to be confused with the Higgs-boson. To be  more precise, the masses come from the condensed  
+Higgs field. This Higgs-field condensate  fills the entire universe and drags on  
+particles. It’s kind of like the 19th century  aether, but with two important differences.
+First, the aether was believed to be necessary  for light to travel. But for the Higgs-field  
+it’s the opposite. The particles of light,  the photons, are massless, which means they  
+don’t feel the Higgs field at all. But other  particles do feel it. When the field condenses,  
+it sticks to the particles. That slows them  down and it looks to us like they have a mass.
+Another difference between the condensed  Higgs-field and the aether is that the  
+Higgs-condensate looks the same for everyone,  regardless of how fast they move. It’s just a  
+number at each point in space-time and everyone  agrees on what this number is. It’s like the  
+number of socks in your washing machine.  Doesn’t matter how fast the spin cycle is,  
+the number of socks doesn’t change. Or if  it does, I guess it’s time for new socks.
+The aether on the other hand was believed to  be basically like a fluid. Some people would  
+drift with the flow, and some people would move  against it, and they’d see different things.  
+This is *not the case for the Higgs-field and  its condensate. If you like technical terms,  
+and I just know you do, it’s a Lorentz-scalar  and invariant under Poincare transformations.
+Ok, so the masses of fundamental particles  come from the Higgs-field. But. This is  
+only the case when the field is condensed and  that wasn’t the case in the early universe.
+Think of an early morning in spring. No, not the  coffee, I mean the dew on the grass. Where does it  
+come from? Well, air contains water vapour, which  means that individual water molecules float around  
+in the air. But warm air can hold more water  vapour than cold air. If the air temperature  
+drops during the night, the water molecules  collect to form drops which are too heavy  
+to keep floating, and they fall to the ground. The Higgs field has done a very similar thing,  
+not at night, but in the early universe. In  the early universe it was really hot. There  
+was a Higgs-field but it wasn’t condensed,  kind of like the water vapour in the air.  
+But then the temperature dropped, and the Higgs  field condensed. This condensate now fills the  
+entire universe. But it was only when the Higgs  field condensed that particles acquired masses. 
+It’s a phase transition called “electroweak  symmetry breaking” and it’s believed to have  
+happened about 10 to the minus  11 seconds after the Big Bang at  
+a temperature of 10 to the 15 Kelvin, that’s  much hotter than even the centre of the sun.
+What all this means is that in the early  universe none of the particles had masses.  
+They were all massless, and they were all moving  with the speed of light. Later they were not. And  
+here’s the important bit: The energy that was  released in this phase transition was finite.  
+If it hadn’t been, we wouldn’t be here, and  someone would have written a paper about that,  
+I’m sure. But the equation that we looked at  earlier said that the difference in energy  
+should have been infinite. What gives? Mathematically it’s pretty obvious what  
+goes wrong with the earlier argument. If you  look at this equation again, you see that if  
+this factor goes to zero, but the mass *also goes  to zero, then the ratio can well remain finite.
+This doesn’t help us at all to travel at  the speed of light. Because we can’t just  
+uncondense the Higgs field. Even if we could, it’d  basically evaporate the traveller and, I mean,  
+I’m not a doctor, but that’s probably not healthy.  So, this isn’t going to let us build a warp drive.  
+But it shows that the argument that the speed of  light is a barrier isn’t even technically correct. 
+Time Travel Paradoxes
+There is another reason that physicists  often bring up for why you can’t travel  
+faster than the speed of light, which is that  it can allegedly cause time-travel paradoxes.
+The argument goes like this. Suppose  Alice observes a spaceship which goes  
+by faster than the speed of light.  Zoom there it goes. Her friend Bob  
+can’t afford the new super-duper spaceship  and lamely zooms by in last year’s model,  
+at merely 90 percent the speed of light. Then  Bob would see the space-ship going back in time.
+Let’s draw this into a space-time diagram to see  why. The horizontal axis depicts one direction  
+of space, so left and right, for example. And  the vertical axis is time. A spaceship which  
+doesn’t move, according to this axis, just makes a  vertical line. A spaceship at constant velocity is  
+a line which moves at some angle. By convention  a 45-degree angle is the speed of light.
+Alice just sits there and moves on  this straight line. And everything  
+that happens on a perfectly horizontal line  happens simultaneously, according to Alice.
+The faster-than-light space-ship goes by like  this. And Bob moves on this line. The question  
+is now what Bob sees. For this, let’s look at  two particular events. And let’s make sure those  
+events have a clear arrow of time from entropy  increase, let’s say someone drops a raw egg. The  
+guy in the spaceship stumbles here, and the  egg smashes to the ground here. This means,  
+importantly, that time on the space-ship passes in  this direction, and *not in the other direction.
+Since Bob is moving relative to Alice, he  sees different events happen simultaneously.  
+I explained this previously in my video  on why the past still exists. So, well,  
+either take my word for it  or watch the other video. 
+For Bob, events that happen at equal times are on  these straight lines, not on horizontal lines. You  
+can then see that for Bob the order of events is  that the egg first smashes to the ground and then  
+gets dropped. It seems that for Bob the time order  of the faster than light ship is reversed, crazy!
+The first reaction you may have to this is:  Who cares what Bob sees? I mean you can watch  
+this video in reverse and that doesn’t mean  I actually spoke in reverse. Fair enough.
+The second reaction is to point out that this  isn’t what either Alice or Bob see anyway. You  
+can’t see a faster than light ship coming for  the same reason you can’t hear a supersonic  
+plane coming. What do you want to see it with?  Instead, both Alice and Bob will only see the  
+spaceship after it’s gone by and then they’ll  see it moving away in both directions. And again,  
+you can say, so what? I mean gravitational  lensing distorts galaxies into rings, alright,  
+but that doesn’t mean the galaxy is a ring.  It’s just some weird trick on our perception.
+And that’s entirely correct… But, you know,  physicists have noticed that too. Thing is,  
+this wasn’t the entire argument. There’s  a piece missing which goes like this. 
+Imagine you are Bob, and there’s really a  spaceship that can go faster than light and  
+according to you that goes back in time. Let’s not  ask what this means but what you can do with it.  
+If the time on the spaceship really  goes forward this way, then you can  
+give a message to the guys as they come by.  They take your message to Andromeda, hand it  
+over to another faster-than light spaceship,  and the second ship brings the message back to  
+you. It would then arrive before you sent it. This means you could send messages to yourself  
+back in time, and *that causes a lot of  trouble. Imagine that this video greatly  
+disturbs you and you send a message  to your younger self to not watch it,  
+then you’d never have sent the message in the  first place, so did you, or didn’t you watch it?  
+This type of construction is also called a  time-like closed loop, it’s a loop in time. 
+The argument then concludes that if  faster-than-light travel was possible,  
+that would lead to causality  paradoxes, so it must be impossible.
+But this argument is also wrong. The reason  is that just because according to Bob there’s  
+a spaceship going that way with a time  that goes forward on the space-ship in  
+a direction that Bob calls backwards in time,  that doesn’t mean if a space-ship goes that way  
+then its internal forward-in time direction  would be that way. If the time-direction on  
+the ship goes that way, they can’t deliver  a message to your younger self. Instead,  
+your younger self can send a message  there, and nothing’s weird about that.
+Physicists do have a reason to assume that  time on the space-ship could go this way,  
+but it’s not a good reason. It’s because in  special relativity all observers must be treated  
+the same. In Special Relativity, if you think that  this is possible, then this must also be possible.
+But Special Relativity is special because  it doesn’t contain gravity and this means  
+it doesn’t actually describe reality. For this, we  need general relativity. And while the time-travel  
+argument is correct in special relativity,  it is not correct in general relativity.
+I know this video is some tough going so  let’s stop for a moment to appreciate where  
+we are. I summarised the usual argument  for why faster than light travel leads to  
+time-travel paradoxes. I’m about to explain why  this argument doesn’t apply in the real universe.
+The usual argument uses special relativity  according to which only relative velocities  
+are physically relevant. In special relativity,  you can’t be at a velocity of absolute zero,  
+that just makes no sense. But the  real universe contains stuff, as  
+you’ve probably noticed. You can take all this  stuff, calculate the average velocity that it  
+moves with. And then you can define absolute  rest to be motion that has no relative velocity  
+to the average of all that stuff. Since you  like technical terms so much, it’s called the  
+“co-moving frame”. It’s the reference frame  that moves along with matter in the universe.
+We are currently not at rest relative to the  average of stuff in the universe because the  
+earth goes around the sun and the sun goes  around the centre of the milky way and the  
+milky way is rushing towards something  called the big attractor that no one  
+really knows what it is. If you wanted to  be at rest with the universe you’d have  
+to run at 300 kilometres per second into  this direction. No, wait. This. Or, this?
+Alright, so there’s matter in the universe that  moves one way and not another. But what does this  
+have to do with the time-travel story? Suppose  you are Alice again but now you are Alice in a  
+universe with general relativity and you  are moving with the stuff, you are in the  
+co-moving frame. And now assume that faster  than light travel is only allowed forward in  
+time in this particular frame. In this case you  can’t make loops in time, regardless of what  
+Bob thinks he sees. The co-moving frame defines  one direction as forward in time. The only thing  
+Bob can do is send two signals to Andromeda,  and there’s nothing Paradoxical about that.
+You may wonder now what the motion of matter  should have to do with the possibility of  
+faster-than light travel? This is a very good  question to which the answer is: Quite possibly  
+nothing. I just used this as an example. It’s  an example to show that faster-than-light travel  
+does not necessarily imply time-travel paradoxes.  The latter just doesn’t follow from the former.
+To add one final reason why you shouldn’t trust  the argument that faster-than-light travel is  
+impossible is that we know our current  theory of space-time, General Relativity,  
+can’t be correct because it doesn’t work together  with quantum theory. This is why we need a theory  
+of quantum gravity, and we still don’t have one.  We know however that causality and locality become  
+really screwed up in quantum mechanics, and the  same is probably the case in quantum gravity. 
+This is why I think it’s extremely  implausible that any argument about  
+faster-than-light travel would survive in  the to-be-found theory of quantum gravity.
+Of course you already know that no one’s figured  out how to travel faster than the speed of light.  
+But I hope I have managed to convince at least  some of you that the formal reasons you may have  
+heard against it are on shaky grounds. This is  why I believe physicists should think a little  
+harder about faster-than-light travel. At the very  least, then maybe humans wouldn’t be so boring. 

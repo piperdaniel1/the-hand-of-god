@@ -3,6 +3,7 @@ import win32api, win32con
 import winsound
 import time
 import sys
+from display import Display
 
 def left_click():
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTDOWN,0,0)
@@ -80,8 +81,12 @@ class TriggerBot:
     def _run_perf(self):
         WIDTH = 100
         HEIGHT = 10
-        ENABLED = True
+        ENABLED = False
         CLICKED = False
+
+        display = Display()
+        display.is_active = ENABLED
+        display.rerender()
 
         with mss.mss() as sct:
             while True:
@@ -125,36 +130,41 @@ class TriggerBot:
                             left_click()
                             mss.tools.to_png(sct_img.rgb, sct_img.size, output="last-fire.png")
                             time.sleep(0.2)
-                    elif r == 255 and g == 255 and b == 0:
-                        for i in range(0, len(sct_img.raw), 4):
-                            r = sct_img.raw[i]
-                            g = sct_img.raw[i+1]
-                            b = sct_img.raw[i+2]
-                            if is_trigger(r, g, b):
-                                y = i // (WIDTH * 4)
-                                x = (i - y * WIDTH * 4) // 4
-
-                                if x < WIDTH // 2:
-                                    left_trigger = True
-                                else:
-                                    right_trigger = True
-                    
-                        if left_trigger and right_trigger and ENABLED:
-                            left_click()
-                            mss.tools.to_png(sct_img.rgb, sct_img.size, output="last-fire.png")
-                            time.sleep(0.15)
-
-                    if is_alt_clicked():
-                        if not CLICKED:
-                            if ENABLED:
-                                winsound.Beep(1000, 100)
-                            else:
-                                winsound.Beep(2000, 100)
-
-                            ENABLED = not ENABLED
-                        CLICKED = True
                     else:
-                        CLICKED = False
+                        if is_alt_clicked():
+                            if not CLICKED:
+                                if ENABLED:
+                                    winsound.Beep(1000, 100)
+                                    display.is_active = False
+                                else:
+                                    winsound.Beep(2000, 100)
+                                    display.is_active = True
+
+                                display.rerender()
+                                ENABLED = not ENABLED
+                                
+                            CLICKED = True
+                        else:
+                            CLICKED = False
+                    # elif r == 255 and g == 255 and b == 0:
+                    #     for i in range(0, len(sct_img.raw), 4):
+                    #         r = sct_img.raw[i]
+                    #         g = sct_img.raw[i+1]
+                    #         b = sct_img.raw[i+2]
+                    #         if is_trigger(r, g, b):
+                    #             y = i // (WIDTH * 4)
+                    #             x = (i - y * WIDTH * 4) // 4
+
+                    #             if x < WIDTH // 2:
+                    #                 left_trigger = True
+                    #             else:
+                    #                 right_trigger = True
+                    
+                    #     if left_trigger and right_trigger and ENABLED:
+                    #         left_click()
+                    #         mss.tools.to_png(sct_img.rgb, sct_img.size, output="last-fire.png")
+                    #         time.sleep(0.15)
+
 
 
     # Used for testing colors
